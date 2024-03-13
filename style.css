@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins";
+  transition-duration: 0.4s;
+}
+.black-text{
+  color: black;
 }
 header {
   display: flex;
@@ -30,6 +34,9 @@ header h1 {
 .header-items button {
   background-color: transparent;
   border: 1px solid transparent;
+}
+.fa-github{
+  font-size: 25px;
 }
 .flex-box {
   display: flex;
